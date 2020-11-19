@@ -1,0 +1,12 @@
+.POPSSpace {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.POPSSpace > img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}

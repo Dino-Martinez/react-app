@@ -2,10 +2,11 @@
 
 import React from 'react';
 import POPSSpace from './SFPOPSpace';
+import './SFPOPSList.css';
 
 function POPSList() {
   return (
-    <div>
+    <div className="POPSList">
       <POPSSpace
         name="50 California Street"
         address="50 California St."
@@ -15,6 +16,26 @@ function POPSList() {
         name="100 Pine"
         address="100 Pine St."
         image="100-pine.jpg"
+      />
+       <POPSSpace
+        name="101 California Street"
+        address="101 California"
+        image="101-california.jpg"
+      />
+      <POPSSpace
+        name="343 Sansome Roof Garden"
+        address="343 Sansome St."
+        image="343-sansome-roof-garden.jpg"
+      />
+      <POPSSpace
+        name="525 Market Street Plaza"
+        address="525 Market St."
+        image="525-market-street-plaza.jpg"
+      />
+      <POPSSpace
+        name="Citigroup Center"
+        address="1 Sansome St."
+        image="citigroup-center.jpg"
       />
     </div>
   )

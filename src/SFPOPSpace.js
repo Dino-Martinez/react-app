@@ -1,18 +1,19 @@
 // src/Project.js
 
-import React from 'react'
+import React from 'react';
+import './SFPOPSpace.css';
 
 function POPSSpace(props) {
   const {name, image, address} = props;
   return (
-    <div>
+    <div className="POPSSpace">
       <img src={`${process.env.PUBLIC_URL}images/${image}`}     
         width="300"
         height="300" 
         alt={image}
       />
-      <h1>{name}</h1>
-  <div>{address}</div>
+      <h2>{name}</h2>
+      <h4>{address}</h4>
     </div>
   )
 }
