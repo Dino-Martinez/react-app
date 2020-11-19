@@ -8,7 +8,7 @@ function Title(props) {
     <div className="Title">
       <h1>SFPOPS</h1>
       <div className="Title-Subtitle">
-          <h3>San Francisco Privately Owned Public Open Spaces</h3>
+          <h3>San Francisco Privately Owned Public Spaces</h3>
       </div>
     </div>
   )

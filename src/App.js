@@ -1,15 +1,15 @@
 // src/App.js
 
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Title from './Title';
+import SFPOPList from './SFPOPList';
 
 function App() {
   return (
     <div className="App">
       <Title/>
-      <img src={logo} alt="Logo"/>
+      <SFPOPList/>
     </div>
   );
 }
