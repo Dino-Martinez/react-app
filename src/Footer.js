@@ -6,7 +6,7 @@ import './Footer.css'
 function Footer(props) {
   return (
     <div className="Footer">
-        <p>Secundino Martinez copyright 2020</p>
+        <p>Secundino Martinez copyright {new Date().getFullYear()}</p>
     </div>
   )
 }

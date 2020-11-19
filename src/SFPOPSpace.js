@@ -4,7 +4,7 @@ import React from 'react';
 import './SFPOPSpace.css';
 
 function POPSSpace(props) {
-  const {name, image, address} = props;
+  const {name, image, address, hours} = props;
   return (
     <div className="POPSSpace">
       <img src={`${process.env.PUBLIC_URL}images/${image}`}     
@@ -14,6 +14,7 @@ function POPSSpace(props) {
       />
       <h2>{name}</h2>
       <h4>{address}</h4>
+      <h4>{hours}</h4>
     </div>
   )
 }
