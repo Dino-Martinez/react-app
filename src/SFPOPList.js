@@ -6,9 +6,10 @@ import './SFPOPSList.css';
 import data from './sfpopos-data.json'
 
 function POPSList() {
-  const spaces = data.map(( { title, address, images, hours } ) => {
+  const spaces = data.map(( { title, address, images, hours }, i ) => {
     return (
       <POPSSpace
+        id={i}
         key={title}
         name={title}
         address={address}
